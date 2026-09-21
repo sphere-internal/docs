@@ -8,11 +8,11 @@ description: >-
 
 The Transaction API lets a custom billing system create taxable transactions directly in Sphere. It records both invoices and credit notes. You also use it to manage the customer and product reference data that Sphere needs to calculate tax and to produce VAT-compliant records.
 
-Use the [Tax Calculation](../tax-calculation.md) endpoint for a real-time quote at checkout. Use the Transaction API to record the finalized transaction that Sphere reports and files on.
+Use the Tax Calculation endpoint for a real-time quote at checkout. Use the Transaction API to record the finalized transaction that Sphere reports and files on.
 
 ## Base URL
 
-`https://server.getsphere.com/v1`
+`https://api.getsphere.com/v1`
 
 ## Authentication
 
@@ -83,6 +83,6 @@ A `429` also carries `RateLimit-Limit` and `RateLimit-Remaining` headers. Retry 
 
 ## Resources
 
-* [Transactions](transactions.md): create invoices and credit notes, retrieve, and cancel.
-* [Customers](customers.md): customer records and tax IDs.
-* [Products](products.md): products and Sphere product tax codes.
+* Transactions: create invoices and credit notes, retrieve, and cancel.
+* Customers: customer records and tax IDs.
+* Products: products and Sphere product tax codes.
