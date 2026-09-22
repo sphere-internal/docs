@@ -6,7 +6,7 @@ This guide provides step-by-step instructions on generating an API key in Tabs, 
 
 It also covers configuring the Sphere Tax API within Tabs to ensure accurate tax calculations.\
 \
-**Testing:** To test the integration, we recommend connecting your Tabs sandbox tenant to a test Sphere organization to confirm. If you do not have Tabs sandbox tenant, please contact your Zuora account team to provision one.
+**Testing:** To test the integration, we recommend connecting your Tabs sandbox tenant to a test Sphere organization to confirm. If you do not have Tabs sandbox tenant, please contact your Tabs account team to provision one.
 
 ### Part 1: Configure Data Synchronization from Tabs to Sphere
 
