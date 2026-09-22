@@ -10,7 +10,7 @@ It also covers configuring the Sphere Tax API within Tabs to ensure accurate tax
 
 ### Part 1: Configure Data Synchronization from Tabs to Sphere
 
-1. In your Sphere account, click on the Connect button on the Zuora tile.&#x20;
+1. In your Sphere account, click on the Connect button on the Tabs tile.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-07-02 at 11.39.59 AM (1).png" alt=""><figcaption></figcaption></figure>
 
