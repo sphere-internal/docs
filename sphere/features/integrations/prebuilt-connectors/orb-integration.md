@@ -22,7 +22,7 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-24 at 2.16.31 PM.png" alt=""><figcaption></figcaption></figure>
 
-4. A modal will appear allowing you to enter the **key name** and a **description**. Once finished, click **Create**.
+4. A modal will appear allowing you to enter the **key name** and a **description**. Once finished, click **Create**. Leave all other settings as defaults.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-24 at 2.17.24 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,10 +46,9 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-24 at 2.25.26 PM.png" alt=""><figcaption></figcaption></figure>
 
-10. A modal will appear, prompting you to enter the **Endpoint URL** you copied from **Sphere** (Orb Webhook URL) in Step 7. Click **Add Endpoint**.
+10. A modal will appear, prompting you to enter the **Endpoint URL** you copied from **Sphere** (Orb Webhook URL) in Step 7. You can either click **Select All** at the top of the screen to select all events, or **Select All** for both **Customer** and **Invoice & credit note**. Finally, Click **Create Endpoint**.<br>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-24 at 2.26.00 PM.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 11. You will see the **Endpoint URL** successfully added to the list. Click the URL that was just added.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-24 at 2.26.24 PM.png" alt=""><figcaption></figcaption></figure>
@@ -69,6 +68,8 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 15. You’re all set! If the connection is successful, data will begin importing, and after some time, your products will appear in **Sphere**.
 
 <figure><img src="../../../.gitbook/assets/Assign code_Orb.png" alt=""><figcaption></figcaption></figure>
+
+However, if you've been following this guide, Sphere will automatically direct you to the API key creation screen, allowing you to immediately commence Part 2 (below). The screen you see is to generate the API key, simplifying Step 3.
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
