@@ -35,7 +35,7 @@ It also covers configuring the Sphere Tax API within Rillet to ensure accurate t
 
 <figure><img src="../../../.gitbook/assets/Rillet (4).png" alt=""><figcaption></figcaption></figure>
 
-7.  In Rillet, navigate to **Organization Settings** > **Webhooks** ([https://sandbox.rillet.io/settings/webhooks](https://sandbox.rillet.io/settings/webhooks)) and click the **Create webhook** button.
+7.  In Rillet, navigate to **Organization Settings** > **Webhooks** ([https://app.rillet.io/settings/webhooks](https://app.rillet.io/settings/webhooks)) and click the **Create webhook** button.
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2026-06-18 at 11.59.26 AM.png" alt=""><figcaption></figcaption></figure>
 
