@@ -7,7 +7,7 @@ Integrating NetSuite with Sphere enables:
 
 This guide walks through installing the Sphere SuiteApp, configuring tax calculation, and connecting your NetSuite account to Sphere.
 
-<figure><img src="../../../.gitbook/assets/Netsuite.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Netsuite (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

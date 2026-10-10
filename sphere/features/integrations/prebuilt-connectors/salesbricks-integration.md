@@ -10,11 +10,11 @@ It also covers configuring the Sphere Tax API within Salesbricks to ensure accur
 
 1. In your Sphere account, select the **Salesbricks** tile and click the “**Connect**” button.
 
-<figure><img src="../../../.gitbook/assets/Salesbrick (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick (3).png" alt=""><figcaption></figcaption></figure>
 
 2. A modal will appear — click the **“Get Started”** button to proceed.
 
-<figure><img src="../../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick -1.png" alt=""><figcaption></figcaption></figure>
 
 3. In your Salesbricks app, navigate to the **Settings** tab, then go to **Integrations**. Under the **Salesbricks Services** section, click the **APIs** button.
 
@@ -26,21 +26,21 @@ It also covers configuring the Sphere Tax API within Salesbricks to ensure accur
 
 5. Go back to the Sphere app, paste the Salesbricks API token, and click **Next**.
 
-<figure><img src="../../../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick - 2.png" alt=""><figcaption></figcaption></figure>
 
 6. You’re all set! If the connection is successful, data will begin importing, and after some time, your products will appear in **Sphere**.
 
-<figure><img src="../../../.gitbook/assets/Assign code_Salesbricks.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Salesbrick.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
 1. In Sphere, click **“Create a new API Key”** to generate the Sphere Tax API key. Make sure to save the newly generated key, as it cannot be viewed again later. You will need to enter this value in the Salesbricks dashboard.
 
-<figure><img src="../../../.gitbook/assets/10 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick - 3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick - 4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/11 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Salesbrick - 5.png" alt=""><figcaption></figcaption></figure>
 
 2. Go to **Settings** in your Salesbricks account, click **Integrations**, and then under the **Billing and Payment** section, select **Sphere**.
 

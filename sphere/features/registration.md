@@ -23,7 +23,7 @@ Sphere has gone through the registration requirements for each tax jurisdiction 
 
 Every region will have different requirements and so forms may look a little different. That said, there is also significant overlap between forms - to help streamline registration, we prepopulate answers from prior registration forms that you've completed so that you don't have to fill out the same information every time.&#x20;
 
-<figure><img src="../.gitbook/assets/Chicago.png" alt=""><figcaption><p>New registration forms are prepopulated with answers from prior registrations to save you time.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Registration (1).png" alt=""><figcaption><p>New registration forms are prepopulated with answers from prior registrations to save you time.</p></figcaption></figure>
 
 {% hint style="info" %}
 _Note: Many countries outside of the US offer a simplified GST / VAT system for digital services companies. Currently, Sphere only supports these simplified GST / VAT systems vs the general system in those countries. The limitations of these simpified systems tends to be that they don't allow you to claim input tax for expenses you incur in the region._
@@ -33,13 +33,13 @@ Once you submit a new registration, you will either need to:&#x20;
 
 **a.) Complete some next steps** - if you need to complete a next step an 'Action Required' status will appear next to your registration in the 'Subscribed Registrations' table and you will receive email reminders until the tasks are complete.
 
-<figure><img src="../.gitbook/assets/Action required.png" alt=""><figcaption><p>'Action Required' status means you need to complete steps associated with the registration </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Process - acction.png" alt=""><figcaption><p>'Action Required' status means you need to complete steps associated with the registration </p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/PIN (1).png" alt=""><figcaption><p>If you click on a region with 'Action Required' status you will see the steps you need to take to activate the region in the top right hand corner of the page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Registration (2).png" alt=""><figcaption><p>If you click on a region with 'Action Required' status you will see the steps you need to take to activate the region in the top right hand corner of the page.</p></figcaption></figure>
 
 **b.) Wait for your registration to process** - this means there are no next steps for you and the registration will have a 'Processing' status in the 'Subscribed Registrations' table. You just need to sit tight and Sphere will let you know what to do next! You will be sent an email notification once your registration becomes active or we need something from you.
 
-<figure><img src="../.gitbook/assets/Processing.png" alt=""><figcaption><p>'Processing' status means that Sphere is in the process of submitting your registration to the relevant tax authority </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Process.png" alt=""><figcaption><p>'Processing' status means that Sphere is in the process of submitting your registration to the relevant tax authority </p></figcaption></figure>
 
 ## **Existing registrations**
 
@@ -47,11 +47,9 @@ If you are already registered in a region, all you need to do is link Sphere to 
 
 We make this easy for you by either requesting the relevant details Sphere needs to request access OR giving you instructions to provide access to Sphere.
 
-<figure><img src="../.gitbook/assets/Chicago (1).png" alt=""><figcaption><p>Provide registration details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Details.png" alt=""><figcaption><p>Provide registration details</p></figcaption></figure>
 
 Similar to the New Registrations process, once you provide the necessary details to link Sphere to your account there may be some additional steps you need to take. If there are additional steps, the region will have an 'Action Required' status (as described in the New Registration section above).
-
-
 
 ## Autofiling and Tax Calculations&#x20;
 
@@ -62,4 +60,4 @@ Once your region becomes active on Sphere:
 
 You can switch on / off both Autofiling and Tax Calculations on each respective region page.
 
-<figure><img src="../.gitbook/assets/Chicago (3).png" alt=""><figcaption><p>You can turn Autofiling and Tax Calculations on / off on each region page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Products - Turn on (2) (1).png" alt=""><figcaption><p>You can turn Autofiling and Tax Calculations on / off on each region page.</p></figcaption></figure>

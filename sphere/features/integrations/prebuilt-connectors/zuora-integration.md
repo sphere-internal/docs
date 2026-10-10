@@ -10,10 +10,13 @@ It also covers configuring the Sphere Tax API within Zuora to ensure accurate ta
 
 ### Part 1: Configure Data Synchronization from Zuora to Sphere
 
-1.  In your Sphere account, click on the Connect button on the Zuora tile.&#x20;
+1. In your Sphere account, click on the Connect button on the Zuora tile.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/Zuora.png" alt=""><figcaption></figcaption></figure>
-2. In another window, open your Zuora tenant and navigate to **Administration Settings** by clicking the Zuora App Settings icon on the bottom left corner.
+<figure><img src="../../../.gitbook/assets/Zuora (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Zuora 01 — Connection introduction.png" alt=""><figcaption></figcaption></figure>
+
+1. In another window, open your Zuora tenant and navigate to **Administration Settings** by clicking the Zuora App Settings icon on the bottom left corner.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-07-08 at 5.30.44 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,7 +42,7 @@ It also covers configuring the Sphere Tax API within Zuora to ensure accurate ta
    1. For the Zuora environment dropdown, this will match the URL of your Zuora tenant
    2. For example, if your Zuora tenant URL domain is `na.zuora.com`, select `rest.na.zuora.com`
 
-<figure><img src="../../../.gitbook/assets/Zuora-2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Zuora - 02.png" alt=""><figcaption></figcaption></figure>
 
 8. Once the integration is connected, click Edit and Generate a new API Key to be used below.
 

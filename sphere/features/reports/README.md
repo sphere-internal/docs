@@ -10,6 +10,8 @@ Generate custom reports of your transaction and tax data across billing systems.
 
 ### Available Reports
 
+<figure><img src="../../.gitbook/assets/Reports.png" alt=""><figcaption></figcaption></figure>
+
 **Tax Liability Summary** — A bird's-eye view of gross sales, taxable sales, tax liability, and tax collected by region and period. This report is ideal for periods with large transaction volumes where transaction exports become unwieldy, and for updating your tax payable GL accounts.
 
 **Filing Summary** — Tax filing and remittance summarized by region and period. This report additionally breaks out the discounts, bank charges, and transfer fees applicable to international remittances via Sphere.

@@ -1,6 +1,6 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/Frame 2147225725.png
+cover: .gitbook/assets/Cover (4).png
 coverY: 0
 layout:
   width: default
@@ -45,4 +45,4 @@ Specifically, we provide functionality for:
 
 ### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Monitoring</strong></td><td></td><td><a href=".gitbook/assets/Monitor (1).png">Monitor (1).png</a></td><td></td><td><a href="features/monitoring.md">monitoring.md</a></td></tr><tr><td><strong>Registration</strong></td><td></td><td><a href=".gitbook/assets/Registration.png">Registration.png</a></td><td></td><td><a href="features/registration.md">registration.md</a></td></tr><tr><td><strong>Calculation</strong></td><td></td><td><a href=".gitbook/assets/Calculations.png">Calculations.png</a></td><td></td><td><a href="features/calculation.md">calculation.md</a></td></tr><tr><td><strong>Integrations</strong></td><td></td><td><a href=".gitbook/assets/API Doc (1).png">API Doc (1).png</a></td><td></td><td><a href="features/integrations/">integrations</a></td></tr><tr><td><strong>Filing / Remittance</strong></td><td></td><td><a href=".gitbook/assets/Filling (1).png">Filling (1).png</a></td><td></td><td><a href="features/filing-and-remittance.md">filing-and-remittance.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Monitoring</strong></td><td></td><td><a href=".gitbook/assets/Monitor.png">Monitor.png</a></td><td></td><td><a href="features/monitoring.md">monitoring.md</a></td></tr><tr><td><strong>Registration</strong></td><td></td><td><a href=".gitbook/assets/Registrations.png">Registrations.png</a></td><td></td><td><a href="features/registration.md">registration.md</a></td></tr><tr><td><strong>Calculation</strong></td><td></td><td><a href=".gitbook/assets/Calculations (1).png">Calculations (1).png</a></td><td></td><td><a href="features/calculation.md">calculation.md</a></td></tr><tr><td><strong>Integrations</strong></td><td></td><td><a href=".gitbook/assets/Connection (2).png">Connection (2).png</a></td><td></td><td><a href="features/integrations/">integrations</a></td></tr><tr><td><strong>Filing / Remittance</strong></td><td></td><td><a href=".gitbook/assets/Filling (2).png">Filling (2).png</a></td><td></td><td><a href="features/filing-and-remittance.md">filing-and-remittance.md</a></td></tr></tbody></table>

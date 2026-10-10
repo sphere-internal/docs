@@ -32,7 +32,7 @@ The due date for a filing will vary by region but they are usually either on the
 
 Sphere will generate your filings _**two weeks before the alloted due date**_ so that you have plenty of time to approve the return. When a filing is released it will appear in the Filings section of the Sphere app in the _Pending Filings_ table.
 
-<figure><img src="../.gitbook/assets/Filings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Filing - 01.png" alt=""><figcaption></figcaption></figure>
 
 Filings will also have a status assigned to them based on their standing:
 
@@ -46,13 +46,13 @@ Filings will also have a status assigned to them based on their standing:
 
 Sphere provides the ability to auto remit tax payments from the bank account of your choosing. You can submit these bank details in your Account Settings or send a bank letter to the Sphere team via your dedicated Slack channel
 
-<figure><img src="../.gitbook/assets/Bank.png" alt=""><figcaption><p>Account setting</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Filing - 02.png" alt=""><figcaption><p>Account setting</p></figcaption></figure>
 
 ### :earth\_americas:  Rest of World&#x20;
 
 For international jurisdictions, Sphere currently provides all necessary wire details to be able to send tax payments to international tax authorities.&#x20;
 
-<figure><img src="../.gitbook/assets/Payment.png" alt=""><figcaption><p>Remittance payment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Filing - 03.png" alt=""><figcaption><p>Remittance payment</p></figcaption></figure>
 
 We are currently working on an embedded tax remittance feature that will allow customers to send tax payments internationally directly through Sphere. This will be available by Q2 2025.
 

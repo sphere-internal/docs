@@ -14,7 +14,7 @@ Follow the steps below to get started:
 
 1. In your Sphere account, click on the **Connect** button on the Measure tile.
 
-<figure><img src="../../../.gitbook/assets/Measure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Measure (5).png" alt=""><figcaption></figcaption></figure>
 
 2. In a new window, open your Measure Dashboard and navigate to the **Integrations** tab from the left-hand menu. Locate the **Sphere App** and click **Install**.
 
@@ -28,25 +28,27 @@ Follow the steps below to get started:
 
 <figure><img src="../../../.gitbook/assets/Sphere-x-Measure-Part-1D.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Measure (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Measure 1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Measure 6.png" alt=""><figcaption></figcaption></figure>
 
 5. You’re all set! Once the connection is successful, data will start importing, and your products will appear in Sphere shortly thereafter.
 
-<figure><img src="../../../.gitbook/assets/Assign code_Measure (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Measure.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
 1. Click the **"Edit"** button on the Measure integration card to make changes.
 
-<figure><img src="../../../.gitbook/assets/Measure_ready.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/measure - connected (1).png" alt=""><figcaption></figcaption></figure>
 
 2. This will open a modal displaying the integration details. Click **"Generate"** to create a new API key.
 
-<figure><img src="../../../.gitbook/assets/Measure (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Measure 7.png" alt=""><figcaption></figcaption></figure>
 
 3. Follow the steps to create a new API key. Make sure to store the newly generated key securely, as you won’t be able to view it again later.
 
-<figure><img src="../../../.gitbook/assets/Measure (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Measure 8.png" alt=""><figcaption></figcaption></figure>
 
 4. Then, in Measure, paste the newly generated API key into the field and click **Update**. Your integration is now complete.
 
@@ -54,7 +56,7 @@ Follow the steps below to get started:
 
 5. Ensure all your 'Subscribed Regions' in Sphere have 'Tax Calculations' settings switched to Yes (see video [here](https://www.loom.com/share/6254e72b130c44808a59513046ee60ea?sid=463c87f3-0683-4622-a479-0f960620d332) on how to ensure this is done).
 
-<figure><img src="../../../.gitbook/assets/Calc_new (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Turn on (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

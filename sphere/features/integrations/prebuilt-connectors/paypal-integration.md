@@ -12,7 +12,7 @@ Sphere does not currently support a direct live tax calculation integration with
 
 1. In the Sphere account, click on the Connect button on the PayPal tile.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Paypal connected.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Paypal.png" alt=""><figcaption></figcaption></figure>
 
 2. Create a PayPal App
    1. In the PayPal Developer Console, navigate to Apps & Credentials in the sidebar.
@@ -24,7 +24,9 @@ Sphere does not currently support a direct live tax calculation integration with
    3. Currently, we only support a single product for your PayPal transactions. Select the product you'd like to associate with your PayPal transactions from the dropdown.
    4. Click **Connect** to complete the data synchronization setup.
 
-<figure><img src="../../../.gitbook/assets/Paypal-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Paypal (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Paypal 1.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API for Tax Calculation
 

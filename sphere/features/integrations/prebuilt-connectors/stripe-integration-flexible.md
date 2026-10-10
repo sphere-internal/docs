@@ -12,7 +12,7 @@ Our Stripe app simplifies the configuration of your Stripe account, allowing you
 
 1. In your Sphere account click **Connect** on the Stripe tile.
 
-<figure><img src="../../../.gitbook/assets/Stripe (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Stripe.png" alt=""><figcaption></figcaption></figure>
 
 2. You will be redirected to a new tab where you will be required to **select your Stripe account** that should be integrated with Sphere.
 
@@ -25,7 +25,7 @@ Our Stripe app simplifies the configuration of your Stripe account, allowing you
 4. If the connection is successful, you'll see a success message on screen and you'll be redirected back to the Sphere app.
 5.  Ensure all your 'Subscribed Regions' in Sphere have 'Tax Calculations' settings switched to Yes (see video [here](https://www.loom.com/share/6254e72b130c44808a59513046ee60ea?sid=463c87f3-0683-4622-a479-0f960620d332) on how to ensure this is done).<br>
 
-    <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Products - Turn on (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Disable automatic tax calculation in your Stripe account
 

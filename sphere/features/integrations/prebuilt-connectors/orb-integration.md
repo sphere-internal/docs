@@ -12,7 +12,7 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 
 1. In your Sphere account, click on the **Connect** button on the Orb tile.
 
-<figure><img src="../../../.gitbook/assets/Orb (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb (4).png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your Orb dashboard and navigate to the **Developers** tab. Click **API Keys**.
 
@@ -32,11 +32,13 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 
 6. Go back to your Sphere account and enter the API key generated in Step 4. Ensure there are no extra spaces before or after the value.
 
-<figure><img src="../../../.gitbook/assets/20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Orb-1.png" alt=""><figcaption></figcaption></figure>
 
 7. Click **Next** to complete the setup. A success message will confirm the connection. Next, you'll proceed with setting up the webhook. Copy the Orb Webhook URL.
 
-<figure><img src="../../../.gitbook/assets/Step 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb-2 (1).png" alt=""><figcaption></figcaption></figure>
 
 8. Return to the **Orb Dashboard**, go to the **Developers** tab, and click **Webhooks**.
 
@@ -63,11 +65,11 @@ It also covers configuring the Sphere Tax API within Orb to ensure accurate tax 
 
 14. Go back to the **Sphere dashboard**. In the **Orb Webhook Secret** input field, paste the **Signing Secret** copied in Part 13, then click **Done**.
 
-<figure><img src="../../../.gitbook/assets/17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb-3.png" alt=""><figcaption></figcaption></figure>
 
 15. You’re all set! If the connection is successful, data will begin importing, and after some time, your products will appear in **Sphere**.
 
-<figure><img src="../../../.gitbook/assets/Assign code_Orb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Orb.png" alt=""><figcaption></figcaption></figure>
 
 However, if you've been following this guide, Sphere will automatically direct you to the API key creation screen, allowing you to immediately commence Part 2 (below). The screen you see is to generate the API key, simplifying Step 3.
 
@@ -83,11 +85,11 @@ However, if you've been following this guide, Sphere will automatically direct y
 
 3. In Sphere, click on "**Create a new API Key**" to generate the Sphere Tax API Key. Be sure to save the newly generated key, as it cannot be viewed again later.
 
-<figure><img src="../../../.gitbook/assets/21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb-4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb-5.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Orb-6.png" alt=""><figcaption></figcaption></figure>
 
 4. Enter your Sphere Tax API Key into the text box and click **"Connect"**.&#x20;
 

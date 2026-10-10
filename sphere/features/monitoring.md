@@ -52,7 +52,7 @@ A physical presence can be triggered by several factors, including the presence 
 
 Sphere integrates with your HRIS provider to track your FTEs and contractors around the world to see where you have physical presence. This is denoted in the _Physical Presence_ column in the Monitoring feature.
 
-<figure><img src="../.gitbook/assets/Monitor (3).png" alt=""><figcaption><p>Physical presence column in Monitoring</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Presence.png" alt=""><figcaption><p>Physical presence column in Monitoring</p></figcaption></figure>
 
 ### Economic presence&#x20;
 
@@ -62,7 +62,7 @@ Sphere keeps track of all of these economic thresholds globally and integrates w
 
 If a region has an _Approaching Exposure_ status (see definitions [below](monitoring.md#monitoring-statuses)), we will show you your progress towards the threshold via the _Nexus Tracker_ column. Note that _Volume ($)_ and _Volume (#)_ denotes volume over a specific determination period that is specific to the region (this can be the prior calendar year, rolling last twelve months etc).
 
-<figure><img src="../.gitbook/assets/Approaching exposure.png" alt=""><figcaption><p>Economic nexus calculation and tracking in Monitoring</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Approaching (1).png" alt=""><figcaption><p>Economic nexus calculation and tracking in Monitoring</p></figcaption></figure>
 
 ### Tax liabilities&#x20;
 
@@ -70,7 +70,7 @@ If your product is taxable in a region and you breach either economic or physica
 
 Sphere provides you with the exact date where you breach nexus and calculates the tax liability you owe from that date (via the _Nexus Triggered Date_ and _Estimated Tax Liability_ column, respectively).
 
-<figure><img src="../.gitbook/assets/Exposed (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/exposed.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note that the _Estimated Tax Liability_ column **does not include** the following additional costs:&#x20;

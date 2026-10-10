@@ -12,7 +12,7 @@ It also covers configuring the Sphere Tax API within Tabs to ensure accurate tax
 
 1. In your Sphere account, click on the Connect button on the Tabs tile.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-02 at 11.39.59 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tabs.png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your Tabs account and navigate to **Developers** tab on the side navigation bar.
 
@@ -31,15 +31,19 @@ It also covers configuring the Sphere Tax API within Tabs to ensure accurate tax
 
 5. Navigate back to your Sphere dashboard, and past the API Key into the Sphere integration and click **Next**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-02 at 11.40.17 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tabs - 1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Tabs - 2.png" alt=""><figcaption></figcaption></figure>
 
 6. In order for us to track liability of your historical transactions, click the **Connect to Quickbooks** button
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-02 at 11.40.55 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tabs - 3.png" alt=""><figcaption></figcaption></figure>
 
 7. Click **Generate API Key** and copy the Sphere API Key for Part 2 below
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-02 at 11.41.08 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tabs - 4.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Tabs - 5.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 

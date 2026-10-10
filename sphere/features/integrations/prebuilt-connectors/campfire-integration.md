@@ -12,7 +12,7 @@ Follow the steps below to get started:
 
 1. In your **Sphere account**, click on the **Connect** button on the Campfire tile.
 
-<figure><img src="../../../.gitbook/assets/Campfire.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire (4).png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your **Campfire Dashboard** and navigate to the **Settings** tab. Click **API Keys** under the Developer section.
 
@@ -24,12 +24,14 @@ Follow the steps below to get started:
 
 4. Go back to the your **Sphere account** and enter the API key generated in Step 3. Ensure there are no extra spaces before or after the value.
 
-<figure><img src="../../../.gitbook/assets/Key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Campfire - 2.png" alt=""><figcaption></figcaption></figure>
 
 5. Click **Next** to complete the setup. A success message will confirm the connection.
 6. Next, you'll proceed with setting up the webhook. Copy the **Campfire Webhook URL**.
 
-<figure><img src="../../../.gitbook/assets/URL.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 3.png" alt=""><figcaption></figcaption></figure>
 
 7. Return to the **Campfire Dashboard**, go to the **Settings** tab in the left menu, and click **Webhooks**.
 
@@ -56,11 +58,11 @@ Follow the steps below to get started:
 
 10. Go back to your Sphere account. In the **Campfire Webhook Secret** input field, paste the **Signing Secret** copied in Part 9, then click **Done**.
 
-<figure><img src="../../../.gitbook/assets/URL (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 7.png" alt=""><figcaption></figcaption></figure>
 
 11. You’re all set! If the connection is successful, data will begin importing, and after some time, your products will appear in **Sphere**. You'll then need to assign tax codes to each of your products and tax will automatically populate on invoices in regions you are registered and where you've enabled automatic tax calculation.
 
-<figure><img src="../../../.gitbook/assets/Assign code_Camp.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Campfire (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Create a Sphere Tax API Key for Tax Calculation
 
@@ -70,23 +72,23 @@ Follow the steps below to get started:
 
 1. Click the **"Edit"** button on the Campfire integration card to make changes.
 
-<figure><img src="../../../.gitbook/assets/Campfire (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - connected (2).png" alt=""><figcaption></figcaption></figure>
 
 2. This will open a modal displaying the integration details. Click **"Generate API Key"** to create a new key.
 
-<figure><img src="../../../.gitbook/assets/Camp_API.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 4 (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Follow the steps to create a new API key.
 
-<figure><img src="../../../.gitbook/assets/Camp_API (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 5.png" alt=""><figcaption></figcaption></figure>
 
 4. Make sure to store the newly generated key securely, as you won’t be able to view it again later. You will need to share this with the Campfire team to set it up for your account.
 
-<figure><img src="../../../.gitbook/assets/Camp_API (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 6.png" alt=""><figcaption></figcaption></figure>
 
 5. This step is optional; you can revoke an existing key and generate a new one if necessary.
 
-<figure><img src="../../../.gitbook/assets/Camp_API (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Campfire - 8.png" alt=""><figcaption></figcaption></figure>
 
 **Tax Calculation Flow**
 

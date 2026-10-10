@@ -12,7 +12,7 @@ It also covers configuring the Sphere Tax API within Nue.io to ensure accurate t
 
 1. In the Sphere account, click on the Connect button on the Nue tile.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Nue connected (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Nue.png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your Nue.io dashboard and navigate to **System Settings** and click **API Keys**
 
@@ -28,11 +28,17 @@ It also covers configuring the Sphere Tax API within Nue.io to ensure accurate t
 
 5. Go back to your Sphere account and enter the API Key. Click **Next** to complete the data synchronization setup.
 
-<figure><img src="../../../.gitbook/assets/Nue_api.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Nue-1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Nue-2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Nue-3.png" alt=""><figcaption></figcaption></figure>
 
 6. On the next step, you will be prompted to generate a Sphere API Key. Save this API Key for Part 2 below.
 
-<figure><img src="../../../.gitbook/assets/Nue_generate.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Nue-4.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Nue-5.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 

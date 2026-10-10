@@ -12,7 +12,7 @@ Follow the steps below to get started:
 
 1. In your Sphere account, click on the **Connect** button on the Maxio tile.
 
-<figure><img src="../../../.gitbook/assets/Maxio (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio (5).png" alt=""><figcaption></figcaption></figure>
 
 2. In a separate window, open your Maxio Dashboard and go to the **Integrations** tab under the **Config** section in the left navigation bar. Click the **Integrations** button, then select **New API Key** to generate an API key in Maxio.
 
@@ -30,13 +30,15 @@ Follow the steps below to get started:
    c. Make sure there are no extra spaces before or after the values.\
    d. Click **Next**.
 
-<figure><img src="../../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Maxio 8.png" alt=""><figcaption></figcaption></figure>
 
 5. Next, set up a webhook connection with Maxio to receive live updates. Start by copying the Maxio Webhook URL from Sphere.
 
-<figure><img src="../../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 12 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/14 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 13.png" alt=""><figcaption></figcaption></figure>
 
 6. In Maxio, go to **Settings** in the main menu, then select **Webhooks** from the options. Once there, click on the **Add New Endpoint** button to create a new webhook. This will allow you to configure the connection to receive live updates from Sphere.
 
@@ -60,25 +62,27 @@ Once you’ve selected these, click **Save** to finalize the webhook setup.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-08-11 at 2.47.17 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/14 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 14.png" alt=""><figcaption></figcaption></figure>
 
 10. You’re all set! If the connection is successful, data will begin importing, and after some time, your products will appear in **Sphere**.
 
-<figure><img src="../../../.gitbook/assets/Assign code_Maxio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Maxio.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
 1. Click the **"Edit"** button on the Maxio integration card to make changes.
 
-<figure><img src="../../../.gitbook/assets/Maxio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio - connected (1).png" alt=""><figcaption></figcaption></figure>
 
 2. This will open a modal displaying the integration details. Click **"Generate API Key"** to create a new key.
 
-<figure><img src="../../../.gitbook/assets/24 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 9.png" alt=""><figcaption></figcaption></figure>
 
 3. Follow the steps to create a new API key. Make sure to store the newly generated key securely, as you won’t be able to view it again later.
 
-<figure><img src="../../../.gitbook/assets/24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Maxio 10.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Maxio 12.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** Sphere does not currently support tax calculation for Maxio transactions. Our team is actively working on integrating this functionality, and we appreciate your patience as we develop this feature. We will provide updates as soon as tax calculation support becomes available.
 

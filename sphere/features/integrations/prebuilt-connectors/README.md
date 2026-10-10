@@ -14,4 +14,4 @@ We also offer integrations with all major HRIS solutions via a universal API pro
 
 These connectors are available in the Integrations feature shown below.
 
-<figure><img src="../../../.gitbook/assets/Integrations.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Integrations (3).png" alt=""><figcaption></figcaption></figure>

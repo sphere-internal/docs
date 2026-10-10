@@ -28,11 +28,11 @@ In order to accurately assess whether your product is taxable in a region we nee
 
 When you onboard onto Sphere we pull in all your products from your billing systems and ask you to assign a Product Tax Code to each.
 
-<figure><img src="../.gitbook/assets/Assign code.png" alt=""><figcaption><p>The Products feature allows you to assign Product Tax Codes to each of your products </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Products (5).png" alt=""><figcaption><p>The Products feature allows you to assign Product Tax Codes to each of your products </p></figcaption></figure>
 
 To assign a Product Tax Code, we ask a series of questions which capture the key taxability characteristics of your product. At the end of the questions, a Product Tax Code is suggested.&#x20;
 
-<figure><img src="../.gitbook/assets/Tax code (1).png" alt=""><figcaption><p>Questions are asked to determine the taxable characteristics of your products</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Assign.png" alt=""><figcaption><p>Questions are asked to determine the taxable characteristics of your products</p></figcaption></figure>
 
 Sphere has created a taxonomy of Product Tax Codes for each key region globally. We then map this taxonomy to the tax law in that region and how that region would tax the various attributes that are contained in a particular Product Tax Code.&#x20;
 
@@ -46,7 +46,7 @@ After you've assigned your Product Tax Code, you'll see it in the Tax Code colum
 
 Using the below example, `62/MS-01 - SaaS - Business Canned ...` the Tax Code is `62/MS-01`  followed by a descriptive label that defines the category the product is in. In this case, `SaaS - Business Canned Software` , `Mississippi`&#x20;
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Products (6).png" alt=""><figcaption></figcaption></figure>
 
 The Tax Code itself is a number, optionally followed by one or more `/`-separated modifiers that capture region- or attribute-specific variations — for example `62`, `62/NJ-02`, or `62/NJ-02/MB-02`.
 
@@ -124,7 +124,7 @@ Sphere uses the following statuses to describe the state of each tax ID:
 * `Failed` - The tax ID failed verification with the relevant authority's tax ID database (for example, it was not found in the relevant tax authority database). Tax IDs with this status **do not apply** the reverse charge mechanism.
 * `Unsupported` - the region of this tax ID is not supported.
 
-<figure><img src="../.gitbook/assets/Tax id.png" alt=""><figcaption><p>International VAT and GST IDs can be added and validated within the Customers feature in Sphere</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Add.png" alt=""><figcaption><p>International VAT and GST IDs can be added and validated within the Customers feature in Sphere</p></figcaption></figure>
 
 ### **Tax Exemption Certificates**&#x20;
 

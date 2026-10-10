@@ -15,7 +15,7 @@ Follow the steps below to get started:
 
 1. In your Sphere account, click on the **Connect** button on the Chargebee tile.
 
-<figure><img src="../../../.gitbook/assets/Chargebee.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your **Chargebee Dashboard** and navigate to the **Settings** tab. Click **Configure Chargebee**.
 
@@ -42,30 +42,32 @@ Follow the steps below to get started:
    2. **Site Name:** _getsphere-test_
    3. Ensure there are no extra spaces before or after the values.
 
-<figure><img src="../../../.gitbook/assets/key (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee - intro (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Chargebee - 1 (1).png" alt=""><figcaption></figcaption></figure>
 
 8. Click **Save** to complete the setup. A success message will confirm the connection.
 9. If the connection is successful, data will begin importing and your products will appear in Sphere (please provide time for all products to load successfully).
 
-<figure><img src="../../../.gitbook/assets/Assign code_Char.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Products - Chargebee.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
 1. Click the **"Edit"** button on the Chargebee integration card to make changes.
 
-<figure><img src="../../../.gitbook/assets/Chargebee (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee - connected (4).png" alt=""><figcaption></figcaption></figure>
 
 2. This will open a modal displaying the integration details. Click **"Generate API Key"** to create a new key.
 
-<figure><img src="../../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee - 2.png" alt=""><figcaption></figcaption></figure>
 
 3. Follow the steps to create a new API key.
 
-<figure><img src="../../../.gitbook/assets/Generate.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee - 3.png" alt=""><figcaption></figcaption></figure>
 
 4. Make sure to store the newly generated key securely, as you won’t be able to view it again later.
 
-<figure><img src="../../../.gitbook/assets/key (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Chargebee - 4.png" alt=""><figcaption></figcaption></figure>
 
 5.  Please visit the link below to add the Sphere application to your Chargebee account:\
     `https://<domain>.chargebee.com/third_party/tax_providers/sphere/overview`

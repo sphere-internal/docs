@@ -12,7 +12,7 @@ It also covers configuring the Sphere Tax API within Sequence to ensure accurate
 
 1. In the Sphere account, click on the Connect button on the Sequence tile.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Sequence.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sequence (1).png" alt=""><figcaption></figcaption></figure>
 
 2. In another window, open your Sequence dashboard and navigate to **Settings** and click **API Keys**
 
@@ -24,11 +24,11 @@ It also covers configuring the Sphere Tax API within Sequence to ensure accurate
 
 4. Go back to your Sphere dashboard and enter in the Client ID and Client Secret from above&#x20;
 
-<figure><img src="../../../.gitbook/assets/Sequence_step1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sequence (2).png" alt=""><figcaption></figcaption></figure>
 
 5. On the next step, you will be prompted to generate a Sphere API Key. Save this API Key for Part 2 below.
 
-<figure><img src="../../../.gitbook/assets/Sequence_step3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sequence - 1.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
 
