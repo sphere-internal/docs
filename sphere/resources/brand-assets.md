@@ -17,5 +17,5 @@ To ensure consistency and proper representation of our brand, please follow thes
 * **Orientation:** Do not skew, rotate, tilt, or flip the logo.
 {% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Assets</td><td>Download official, high-quality Sphere logos</td><td><a href="https://drive.google.com/drive/folders/1oe3RtSpStlSYizIFQlBiQO4baFX983PT?usp=sharing">Download</a></td><td><a href="../.gitbook/assets/Logo (1).png">Logo (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Assets</td><td>Download official, high-quality Sphere logos</td><td><a href="https://drive.google.com/drive/folders/1oe3RtSpStlSYizIFQlBiQO4baFX983PT?usp=sharing">Download</a></td><td><a href="../.gitbook/assets/Logo (2).png">Logo (2).png</a></td></tr></tbody></table>
 
