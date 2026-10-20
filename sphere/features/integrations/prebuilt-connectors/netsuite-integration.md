@@ -35,9 +35,9 @@ On the same **Enable Features** page, go to the **Tax** tab:
 1. Check **SuiteTax**
 2. Under **Related SuiteApps**, install:
    * **SuiteTax Engine** — click Install
-   * **SuiteTax Data Records** — click Install
+   * **SuiteTax Data Records** (only necessary for older versions) — click Install
    * **SuiteTax Reports** — click Install
-3. Check **SuiteTax Plug-in**
+3. Check **SuiteTax** (or **SuiteTax Plugin** in older versions)
 4. Click **Save**
 
 > **Important:** Enabling SuiteTax is permanent and cannot be reversed. If you see a Site Builder error, follow NetSuite's guides to [disable Site Builder](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N2755498.html) and [inactivate websites](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_N2898498.html) first.
