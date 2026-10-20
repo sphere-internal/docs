@@ -8,8 +8,6 @@ description: >-
 
 ## Tax Calculation Endpoint
 
-`POST https://server.getsphere.com/tax_api/calculate_tax`
-
 Returns the tax due on each line item for a given customer location, broken down by jurisdiction, plus a `sphere_tax_calculation_id` to store on the resulting payment or invoice.
 
 ### Authentication
@@ -24,86 +22,9 @@ Send your API key in the `X-API-KEY` header. Contact Sphere to obtain a key. See
 | A Product Tax Code on every product you send                                      | `400 invalid_product_tax_code`              |
 | A registration in Sphere for the customer's region, with tax calculation enabled  | `200` with empty `tax_amounts` (no tax due) |
 
-### Request
-
-| Field                       | Type    | Required | Description                                                                                                                                                                     |
-| --------------------------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `currency`                  | string  | Yes      | ISO 4217 code, lowercase (`usd`, `eur`).                                                                                                                                        |
-| `line_items[]`              | array   | Yes      | At least one item. See below.                                                                                                                                                   |
-| `customer_address`          | object  | Yes\*    | Address to calculate against. Provide `city`, `postal_code`, `country`; for the US also `state`, and `address1` for the most accurate result.                                   |
-| `customer_id`               | string  | No       | Customer id in your billing system (`cus_…` for Stripe). Recommended.                                                                                                           |
-| `pull_customer_address`     | boolean | No       | `true` to use the address stored on the billing-system customer instead of `customer_address`. Requires `customer_id`. Stripe only. Shipping address is preferred over billing. |
-| `tax_id`                    | string  | No       | Customer's tax identification number (e.g. EU VAT number). See Tax IDs and exemptions.                                                                                          |
-| `tax_exempt`                | boolean | No       | `true` to treat the customer as exempt for this calculation.                                                                                                                    |
-| `include_taxability_reason` | boolean | No       | Include a `taxability_reason` on each result.                                                                                                                                   |
-| `ship_from`                 | object  | No       | Origin address for physical goods. Can also be set per line.                                                                                                                    |
-
-\* One of `customer_address` or `pull_customer_address: true` is required.
-
-**Address object:** `address1`, `address2`, `city`, `state`, `postal_code`, `country` (all strings).
-
-**Line item:**
-
-| Field                  | Type    | Required | Description                                                                                               |
-| ---------------------- | ------- | -------- | --------------------------------------------------------------------------------------------------------- |
-| `id`                   | string  | No       | Your identifier for the line, echoed in the response. Use a unique id per line. Defaults to `product_id`. |
-| `amount`               | integer | Yes      | Line total in the currency's minor unit. `10000` = $100.00.                                               |
-| `product_id`           | string  | Yes      | Product id in your billing system (`prod_…` for Stripe). Must have a Product Tax Code in Sphere.          |
-| `discount_amount`      | integer | No       | Discount on this line, minor units. Default `0`.                                                          |
-| `tax_inclusive`        | boolean | No       | `true` if `amount` already includes tax. Default `false`.                                                 |
-| `ship_to`, `ship_from` | object  | No       | Per-line address overrides for physical goods.                                                            |
-
-### Response
-
-`200` with:
-
-```json
-{
-  "message": "Tax calculated successfully",
-  "data": {
-    "lines": [
-      {
-        "id": "line_1",
-        "tax_amounts": [
-          {
-            "amount": 600,
-            "taxable_amount": 10000,
-            "tax_rate": {
-              "percentage": 6.0,
-              "inclusive": false,
-              "display_name": "Sales Tax",
-              "jurisdiction": "South Carolina",
-              "country": "US",
-              "state": "SC",
-              "tax_type": "sales_tax"
-            }
-          }
-        ]
-      }
-    ],
-    "sphere_tax_calculation_id": "cfd1e35a-ccb8-4bf1-86ed-49e332be220b"
-  }
-}
-```
-
-| Field                                                     | Description                                                                                                                                                     |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `data.lines[]`                                            | One per line item, in request order.                                                                                                                            |
-| `lines[].id`                                              | The `id` you sent, or the `product_id`.                                                                                                                         |
-| `lines[].tax_amounts[]`                                   | One entry per tax applied to the line. Empty when no tax is due.                                                                                                |
-| `tax_amounts[].amount`                                    | Tax, minor units.                                                                                                                                               |
-| `tax_amounts[].taxable_amount`                            | Base the tax was calculated on, minor units.                                                                                                                    |
-| `tax_amounts[].tax_rate.percentage`                       | Rate as a percentage (`6.0`, not `0.06`).                                                                                                                       |
-| `tax_amounts[].tax_rate.inclusive`                        | Whether the tax is included in `amount`.                                                                                                                        |
-| `tax_amounts[].tax_rate.display_name`                     | Name to show the customer.                                                                                                                                      |
-| `tax_amounts[].tax_rate.jurisdiction`, `country`, `state` | Where the tax is due.                                                                                                                                           |
-| `tax_amounts[].tax_rate.tax_type`                         | `sales_tax`, `vat`, `gst`, `hst`, `pst`, `qst`, `jct`, `igst`, `lease_tax`, `amusement_tax`, `communications_tax`, `retail_delivery_fee`, `rst`, `service_tax`. |
-| `tax_amounts[].tax_rate.taxability_reason`                | Present when `include_taxability_reason` is `true`. E.g. `standard_rated`, `product_exempt`, `reverse_charge`.                                                  |
-| `data.sphere_tax_calculation_id`                          | Store on the payment or invoice (Stripe `metadata`).                                                                                                            |
-
-{% hint style="info" %}
-A `200` with an empty `tax_amounts` array means no tax is due on that line — the customer is exempt, the sale is reverse-charged, or you have no active registration for the location. If the response has no `sphere_tax_calculation_id`, there is nothing to store.
-{% endhint %}
+{% openapi-operation spec="sphere-transaction-api" path="/calculate_tax" method="post" %}
+[OpenAPI sphere-transaction-api](https://server.getsphere.com/v1/openapi.json)
+{% endopenapi-operation %}
 
 ### Example
 
