@@ -35,7 +35,7 @@ It also covers configuring the Sphere Tax API within Tabs to ensure accurate tax
 
 <figure><img src="../../../.gitbook/assets/Tabs - 2.png" alt=""><figcaption></figcaption></figure>
 
-6. In order for us to track liability of your historical transactions, click the **Connect to Quickbooks** button
+6. In order for us to track liability of your historical transactions, click the **Connect to Tabs** button
 
 <figure><img src="../../../.gitbook/assets/Tabs - 3.png" alt=""><figcaption></figcaption></figure>
 

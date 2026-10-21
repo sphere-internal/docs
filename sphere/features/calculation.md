@@ -132,5 +132,22 @@ In the US, customers may hold tax exemption certificates for a variety of differ
 
 Sphere offers Exemption Certificate Management in the Customers section of the Sphere app. If a customer sends you their certificate, click on the relevant customer in the Customers section, scroll down to the Tax ID table and upload the tax exemption certificate. You can also select the date for which the certificate is valid and Sphere will send you an email to remind you to request a new certificate from your customer when it expires.
 
+### Tax collected vs. tax calculated
 
+Every transaction in Sphere shows two tax figures.
+
+* **Tax collected** is the tax your customer was actually charged on the invoice.
+* **Tax calculated** is the tax Sphere determines is due, using the latest rates, product tax codes, customer tax IDs and exemptions. Sphere updates it whenever the underlying data changes, for example when you assign a product tax code or a customer's VAT ID arrives.
+
+The two usually match. A difference shows where you may have over- or under-collected.
+
+#### How Sphere determines how much tax has been collected
+
+Sphere only reports tax collected that it can account for. If it can't determine how tax was charged, it doesn't guess.
+
+* **Sphere calculated the tax.** Sphere keeps a record of its own calculation, including how the tax was split across each jurisdiction (for example state, county, city and special districts in the US), and can rebuild tax collected from it.
+* **No tax was charged.** Tax collected is zero. Sphere can still calculate what should have been charged, so you can see the gap.
+* **Your billing system or another tool calculated the tax.** Sphere records the total tax charged, but it can't reliably work out how that tax was split across jurisdictions, or which taxes were applied or left out. That information isn't sent to Sphere, and it can't be derived from the total. For example, an invoice with less tax than Sphere expects might reflect an exemption certificate that covers only some jusrisdictions. Rather than guess, Sphere leaves the jurisdiction breakdown empty, so collected tax for these invoices can't be backfilled or broken down by jurisdiction.
+
+If you move tax calculation to Sphere, invoices issued after the switch get the full breakdown. Invoices issued before it keep only the totals your billing system recorded.
 
