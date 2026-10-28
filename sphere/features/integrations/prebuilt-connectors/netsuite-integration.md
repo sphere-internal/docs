@@ -232,3 +232,11 @@ Once you've set up the Sphere SuiteTax plug-in in NetSuite, and configured your 
 Clicking **Preview Tax** on an invoice will populate the box on the right hand side with appropriate tax information.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-11-11 at 8.40.52 PM.png" alt=""><figcaption></figcaption></figure>
+
+### NetSuite role permissions
+
+If you connect Sphere with a custom role, give the role these permissions.&#x20;
+
+<table data-search="false"><thead><tr><th>Tab</th><th>Permission</th><th>Level</th></tr></thead><tbody><tr><td>Setup</td><td>Log in using OAuth 2.0 Access Tokens</td><td>Full</td></tr><tr><td>Setup</td><td>REST Web Services</td><td>Full</td></tr><tr><td>Setup</td><td>Manage own OAuth 2.0 Client Credentials certificates</td><td>Full</td></tr><tr><td>Lists</td><td>Subsidiaries</td><td>View</td></tr><tr><td>Lists</td><td>Items</td><td>View</td></tr><tr><td>Lists</td><td>Customers</td><td>View</td></tr><tr><td>Lists</td><td>Address List in Search</td><td>View</td></tr><tr><td>Lists</td><td>Currency</td><td>View</td></tr><tr><td>Transactions</td><td>Find Transaction</td><td>View</td></tr><tr><td>Transactions</td><td>Invoice</td><td>View</td></tr><tr><td>Transactions</td><td>Credit Memo</td><td>View</td></tr><tr><td>Transactions</td><td>Customer Payment</td><td>View</td></tr></tbody></table>
+
+If your sync fails or data is missing after you set up the role, contact Sphere support.
