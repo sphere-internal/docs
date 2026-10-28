@@ -20,6 +20,7 @@
       * [Transactions](features/integrations/api/transaction-api/transactions.md)
   * [Prebuilt Connectors](features/integrations/prebuilt-connectors/README.md)
     * [Campfire Integration](features/integrations/prebuilt-connectors/campfire-integration.md)
+    * [Hyperline Integration](features/integrations/prebuilt-connectors/hyperline-integration.md)
     * [Chargebee Integration](features/integrations/prebuilt-connectors/chargebee-integration.md)
     * [Light Integration](features/integrations/prebuilt-connectors/light-integration.md)
     * [Maxio Integration](features/integrations/prebuilt-connectors/maxio-integration.md)
