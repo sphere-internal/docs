@@ -11,6 +11,7 @@
   * [API](features/integrations/api/README.md)
     * [Tax Calculation](features/integrations/api/tax-calculation.md)
     * [Example Billing Flows with Stripe](features/integrations/api/example-billing-flows-with-stripe/README.md)
+      * [Sphere-hosted Checkout](features/integrations/api/example-billing-flows-with-stripe/sphere-hosted-checkout.md)
       * [Stripe-hosted Checkout](features/integrations/api/example-billing-flows-with-stripe/stripe-hosted-checkout.md)
     * [Custom Checkout with Stripe Elements](features/integrations/api/custom-checkout-with-stripe-elements.md)
     * [Transaction Export](features/integrations/api/transaction-export.md)
