@@ -255,7 +255,7 @@ If the address changes before payment, call Sphere again and update the PaymentI
 
 ***
 
-#### Step 2b: Subscription
+### Step 2b: Subscription
 
 Stripe finalises the first invoice of a subscription inside the `subscriptions.create` call, before tax can be added. Creating the subscription through a **Subscription Schedule** starting now gives you the first invoice as a draft: Sphere writes the tax onto its lines, your server finalises it and returns the payment `client_secret` to the client exactly as in Stripe's standard Elements flow.
 
