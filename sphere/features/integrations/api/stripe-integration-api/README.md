@@ -6,4 +6,5 @@ description: Server-side endpoints for Stripe Checkout and invoice tax workflows
 
 Use these endpoints to add Sphere tax to Stripe invoices and Checkout Sessions.
 
-Authenticate with your Sphere API key.
+Authenticate with your Sphere API key generated from your Stripe integration.
+
