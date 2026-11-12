@@ -1,8 +1,8 @@
 # Chargebee Integration
 
-Integrating Chargebee with Sphere enables a.) seamless transaction data import and b.) live tax calculation within Chargebee invoices. &#x20;
+Integrating Chargebee with Sphere enables a.) seamless transaction data import and b.) live tax calculation within Chargebee invoices.
 
-This guide provides step-by-step instructions on generating an API key in Chargebee and connecting it to Sphere for a smooth and secure integration.&#x20;
+This guide provides step-by-step instructions on generating an API key in Chargebee and connecting it to Sphere for a smooth and secure integration.
 
 It also covers configuring the Sphere Tax API within Chargebee to ensure accurate tax calculations.
 
@@ -46,12 +46,18 @@ Follow the steps below to get started:
 
 <figure><img src="../../../.gitbook/assets/Chargebee - 1 (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+If your Chargebee account has more than one entity, select the appropriate entity now.
+{% endhint %}
+
 8. Click **Save** to complete the setup. A success message will confirm the connection.
 9. If the connection is successful, data will begin importing and your products will appear in Sphere (please provide time for all products to load successfully).
 
 <figure><img src="../../../.gitbook/assets/Products - Chargebee.png" alt=""><figcaption></figcaption></figure>
 
 ### Part 2: Configure Sphere Tax API Key for Tax Calculation
+
+If you're setting
 
 1. Click the **"Edit"** button on the Chargebee integration card to make changes.
 
@@ -74,6 +80,11 @@ Follow the steps below to get started:
 
     Remember to replace `<domain>` with your Chargebee domain URL.\
     For example, in the URL [**https://sphere-test.chargebee.com/dashboards**](https://sphere-test.chargebee.com/dashboards), the domain is **sphere-test**.
+
+{% hint style="info" %}
+If you're setting up a second Chargebee entity, the appearance of the menu is slightly different. Please see the instructions on configuring multiple Sphere accounts in Chargebee.
+{% endhint %}
+
 6. Click the **"Get Started"** button located in the top right corner.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-11 at 6.59.01 PM.png" alt=""><figcaption></figcaption></figure>
@@ -122,3 +133,19 @@ For detailed guidance on identifying and working with test sites, please refer t
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-10 at 2.42.50 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-10 at 2.43.42 PM.png" alt=""><figcaption></figcaption></figure>
+
+### Configure multiple Sphere accounts in Chargebee
+
+When setting up multiple Chargebee entities in Sphere, most instructions remain the same, except when it comes to putting an API key from Sphere into Chargebee. This section covers how to add a Sphere API key for a specific entity to the corresponding entity in Chargebee.
+
+If you've already set up one Chargebee entity in Sphere, After navigating to `https://<domain>.chargebee.com/third_party/tax_providers/sphere/overview` , you will no longer see the **Get Started** button. Instead, you should click the **Manage Preferences** button under the Sphere logo:
+
+<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+From there, click **Business Entity Configuration** followed by **API Key:**
+
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+
+You can then select the business entity that you are connecting to Sphere.
+
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
