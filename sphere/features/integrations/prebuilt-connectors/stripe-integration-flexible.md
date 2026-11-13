@@ -39,6 +39,12 @@ Our Stripe app simplifies the configuration of your Stripe account, allowing you
 2. Reach out to your Sphere representative, and ask them to enable Flexible tax calculation for you.
 3. Once all the above steps are complete, be sure to test out your existing billing flows and reach out to your Sphere representative if you have any issues or questions.
 
+### Enabling Live Tax Calculation
+
+The above installation steps will enable Sphere to track your Stripe-based liabilitys. Enabling live tax calculation in Flexible mode involves calling Sphere's servers as part of your billing flows. For examples and details, please see our [API Documentation](https://docs.getsphere.com/~/revisions/limc36GJR0SP1m6bpZdx/features/integrations/api).
+
+Once integration work is complete and you're prepared to go-live, please reach out to the Sphere team to enable live tax calculation.
+
 
 
 
