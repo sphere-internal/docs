@@ -18,7 +18,7 @@ Follow the steps below to get started:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-05 at 12.47.39 PM.png" alt=""><figcaption></figcaption></figure>
 
-3. In the **API Keys** section, click **Create API Key** to generate a new key.
+3. In the **API Keys** section, click **Create API Key** to generate a new key with Admin permissions.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-05 at 12.49.45 PM.png" alt=""><figcaption></figcaption></figure>
 
