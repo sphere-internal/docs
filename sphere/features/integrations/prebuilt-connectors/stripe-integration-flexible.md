@@ -27,23 +27,26 @@ Our Stripe app simplifies the configuration of your Stripe account, allowing you
 
     <figure><img src="../../../.gitbook/assets/Products - Turn on (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Part 2: Disable automatic tax calculation in your Stripe account
+### Part 2: Enabling Live Tax Calculation
 
-1.  Once you have the Stripe app installed (refer to Part 1), go to your Stripe Dashboard, click on the gear icon in the top right hand corner of your screen, click Tax, go to the Integrations tab and ensure that the automatic tax' toggle is switched off.<br>
+The above installation steps will enable Sphere to track your Stripe-based liability. Enabling live tax calculation in Flexible mode involves calling Sphere's servers as part of your billing flows. For examples and details, please see our [API Documentation](https://docs.getsphere.com/~/revisions/limc36GJR0SP1m6bpZdx/features/integrations/api).
+
+1. Develop your integration for your billing flows. For most use cases,  integrating Sphere's calculations in flexible mode is as simple as sending an invoice ID to an API endpoint.
+2.  Once you have the Stripe app installed (refer to Part 1), go to your Stripe Dashboard, click on the gear icon in the top right hand corner of your screen, click Tax, go to the Integrations tab and ensure that the automatic tax' toggle is switched off.<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2026-09-04 at 12.03.35 pm (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
     <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Note: If you create invoices / subscriptions / checkout sessions via Stripe's API you must ensure that the <code>automatic_tax.enabled</code> parameter is set to <code>false</code> (more info <a href="https://docs.stripe.com/api/subscriptions/create#create_subscription-automatic_tax">here</a>).</p></div>
-2. Reach out to your Sphere representative, and ask them to enable Flexible tax calculation for you.
-3. Once all the above steps are complete, be sure to test out your existing billing flows and reach out to your Sphere representative if you have any issues or questions.
+3. When you are ready to go live, reach out to your Sphere representative, and ask them to enable Flexible tax calculation for you.
+4. Once all the above steps are complete, be sure to test out your existing billing flows and reach out to your Sphere representative if you have any issues or questions.
 
-### Enabling Live Tax Calculation
 
-The above installation steps will enable Sphere to track your Stripe-based liabilitys. Enabling live tax calculation in Flexible mode involves calling Sphere's servers as part of your billing flows. For examples and details, please see our [API Documentation](https://docs.getsphere.com/~/revisions/limc36GJR0SP1m6bpZdx/features/integrations/api).
 
-Once integration work is complete and you're prepared to go-live, please reach out to the Sphere team to enable live tax calculation.
+
+
+
 
 
 
