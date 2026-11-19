@@ -65,7 +65,7 @@ curl -X POST https://api.getsphere.com/v1/stripe/checkout/hosted_sessions \
 
 * **success\_url** (required): where the buyer is sent after a successful payment.
 * **publishable\_key:** your Stripe publishable key (`pk_…`), used to mount the session in the buyer's browser. It is not a secret. On a direct-install Connect connection you may omit it, and Sphere uses the connected account's own key.
-* **checkout\_session:** your Stripe Checkout Session parameters. Use `price` IDs instead of `price_data` if you prefer, set `"mode": "subscription"` for recurring billing, `"allow_promotion_codes": true`, and so on.
+* **checkout\_session:** your Stripe Checkout Session parameters. Use `price` IDs instead of `price_data` if you prefer, set `"mode": "subscription"` for recurring billing, and so on.
 * Sphere owns the hosted experience and tax, so a few Stripe parameters are set for you and **rejected if included**: `ui_mode`, `return_url`, `cancel_url`, `success_url` (use the top-level `success_url` instead), and the tax parameters `automatic_tax`, `tax_id_collection`, and the line-item `tax_rates` and `dynamic_tax_rates`.
 * Optional **prefill** pre-populates the form: `"prefill": { "country": "US", "email": "buyer@example.com", "name": "Ada Lovelace" }`.
 
@@ -96,7 +96,7 @@ Redirect the buyer to the `url` from Step 1. On Sphere's hosted page the buyer e
 The full request and response schema for the hosted checkout endpoint, generated from the Sphere API's OpenAPI specification.
 
 {% hint style="info" %}
-The `checkout_session` object accepts the standard [Stripe Checkout Session](https://docs.stripe.com/api/checkout/sessions/create) create parameters such as `line_items`, `mode`, `subscription_data`, `allow_promotion_codes`, and so on - except the few Sphere sets for you (listed under Step 1).
+The `checkout_session` object accepts the standard [Stripe Checkout Session](https://docs.stripe.com/api/checkout/sessions/create) create parameters such as `line_items`, `mode`, `subscription_data`, and so on - except the few Sphere sets for you (listed under Step 1).
 {% endhint %}
 
 {% openapi-operation spec="sphere-transaction-api" path="/stripe/checkout/hosted_sessions" method="post" %}
