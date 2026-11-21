@@ -84,7 +84,9 @@ Once you’ve selected these, click **Save** to finalize the webhook setup.
 
 <figure><img src="../../../.gitbook/assets/Maxio 12.png" alt=""><figcaption></figcaption></figure>
 
-**Note:** Sphere does not currently support tax calculation for Maxio transactions. Our team is actively working on integrating this functionality, and we appreciate your patience as we develop this feature. We will provide updates as soon as tax calculation support becomes available.
+4. Finally, go to the Tax menu in settings, select Sphere, and input your API keys
+
+
 
 ***
 
